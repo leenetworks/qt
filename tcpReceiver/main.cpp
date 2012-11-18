@@ -8,5 +8,6 @@ int main(int argc, char *argv[])
     Widget w;
     w.show();
     QTextCodec::setCodecForTr(QTextCodec::codecForLocale());
+
     return a.exec();
 }
